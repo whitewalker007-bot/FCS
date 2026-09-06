@@ -10,15 +10,28 @@ export const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-zinc-950 overflow-hidden pt-20 pb-12">
       
-      {/* Background Image with Dark Vignette */}
-      <div className="absolute inset-0 z-0">
+      {/* Background Video & Image with Dark Vignette */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1920&auto=format&fit=crop"
+          className="absolute inset-0 w-full h-full object-cover opacity-35 grayscale contrast-125 scale-105 transition duration-1000"
+        >
+          <source src="/videos/fcs-boxing-video.mp4" type="video/mp4" />
+        </video>
+        
+        {/* Fallback Image */}
         <Image
           src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1920&auto=format&fit=crop"
           alt="Raghavan Master Pooladikunnu Boxing Archive"
           fill
           priority
-          className="object-cover opacity-25 grayscale contrast-125 scale-105 transition duration-1000"
+          className="object-cover opacity-15 grayscale contrast-125 scale-105 pointer-events-none -z-10"
         />
+
         {/* Gradients */}
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/70 to-zinc-950/40" />
         <div className="absolute inset-0 bg-radial-vignette opacity-80" />

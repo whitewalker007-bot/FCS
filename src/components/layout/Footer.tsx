@@ -82,7 +82,6 @@ export const Footer: React.FC = () => {
             <h4 className="text-xs font-extrabold text-white uppercase tracking-widest font-mono">STORE & CONTACT</h4>
             <ul className="space-y-2 text-xs">
               <li><Link href="/shop" className="hover:text-red-500 transition">Official Equipment & Wraps</Link></li>
-              <li><Link href="/videos" className="hover:text-red-500 transition">Documentary Videos</Link></li>
               <li><Link href="/contact" className="hover:text-red-500 transition">Training Inquiry Form</Link></li>
               <li><Link href="/contact#map" className="hover:text-red-500 transition">Pooladikunnu Gym Map</Link></li>
             </ul>

@@ -29,7 +29,6 @@ export const Navbar: React.FC = () => {
     { name: 'THE STUDENTS', href: '/students' },
     { name: 'LEGACY', href: '/story#legacy' },
     { name: 'GALLERY', href: '/gallery' },
-    { name: 'VIDEOS', href: '/videos' },
     { name: 'SHOP', href: '/shop' },
     { name: 'CONTACT', href: '/contact' }
   ];
