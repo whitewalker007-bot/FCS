@@ -24,19 +24,20 @@ export const StoryPreview: React.FC = () => {
           >
             <div className="relative aspect-[4/5] rounded-xl overflow-hidden border border-zinc-800 shadow-2xl bg-zinc-900">
               <Image
-                src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1200&auto=format&fit=crop"
-                alt="Puthalath Raghavan Pooladikunnu Training Archive"
+                src="/images/puthalath-raghavan-master-home.jpg"
+                alt="Puthalath Raghavan (Raghavan Master) Pooladikunnu"
                 fill
-                className="object-cover grayscale contrast-125 hover:scale-105 transition duration-700"
+                priority
+                className="object-cover contrast-110 hover:scale-105 transition duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent" />
               
               <div className="absolute bottom-6 left-6 right-6 p-6 bg-zinc-950/90 backdrop-blur-md border border-zinc-800 rounded-lg">
                 <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-red-500 block mb-1">
-                  HISTORICAL ARCHIVE NOTE
+                  AUTHENTIC HISTORICAL PHOTOGRAPH
                 </span>
                 <p className="text-xs text-zinc-300 font-mono leading-relaxed">
-                  Modest workshop gym near Pooladikunnu, Kozhikode where Raghavan Master trained state & national gold medalists.
+                  Puthalath Raghavan (Raghavan Master) at his home in Pooladikunnu, Kozhikode.
                 </p>
               </div>
             </div>

@@ -246,6 +246,28 @@ export const TRAINING_PROGRAMS: ProgramItem[] = [
 
 export const GALLERY_ARCHIVE: GalleryMedia[] = [
   {
+    id: 'g-auth-1',
+    title: 'Puthalath Raghavan (Raghavan Master)',
+    category: 'Raghavan Master',
+    imageUrl: '/images/puthalath-raghavan-master-home.jpg',
+    aspectRatio: 'portrait',
+    caption: 'Authentic personal photograph of Puthalath Raghavan (Raghavan Master) at his home in Pooladikunnu, Kozhikode.',
+    year: 'Historical Archive',
+    credit: 'Family & FCS Collection',
+    isVerifiedPhoto: true
+  },
+  {
+    id: 'g-auth-2',
+    title: 'Friends Cultural Society Memorial Honor',
+    category: 'Raghavan Master',
+    imageUrl: '/images/puthalath-raghavan-fcs-memorial.jpg',
+    aspectRatio: 'square',
+    caption: 'Authentic photograph from Friends Cultural Society (FCS Pooladikunnu) 50th anniversary memorial event honoring Puthalath Raghavan.',
+    year: 'FCS Memorial Event',
+    credit: 'FCS Pooladikunnu Archive',
+    isVerifiedPhoto: true
+  },
+  {
     id: 'g1',
     title: 'The Master in His Ring',
     category: 'Raghavan Master',
