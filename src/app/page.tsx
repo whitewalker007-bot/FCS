@@ -9,7 +9,6 @@ import { StudentsSpotlight } from '@/components/home/StudentsSpotlight';
 import { WomensBoxingSection } from '@/components/home/WomensBoxingSection';
 import { FCSCommunitySection } from '@/components/home/FCSCommunitySection';
 import { BeyondBoxingGrid } from '@/components/home/BeyondBoxingGrid';
-import { SculptorSection } from '@/components/home/SculptorSection';
 import { KozhikodeSection } from '@/components/home/KozhikodeSection';
 import { DaveedSection } from '@/components/home/DaveedSection';
 import { LegacyToday } from '@/components/home/LegacyToday';
@@ -27,7 +26,6 @@ export default function HomePage() {
       <WomensBoxingSection />
       <FCSCommunitySection />
       <BeyondBoxingGrid />
-      <SculptorSection />
       <KozhikodeSection />
       <DaveedSection />
       <LegacyToday />
