@@ -46,11 +46,11 @@ export const TheMaster: React.FC = () => {
           >
             <div className="relative aspect-[3/4] rounded-xl overflow-hidden border border-zinc-700 shadow-2xl bg-zinc-950">
               <Image
-                src="/images/puthalath-raghavan-fcs-memorial.jpg"
-                alt="Puthalath Raghavan FCS Memorial Photo"
+                src="/images/puthalath-raghavan-the-master-portrait.png"
+                alt="Puthalath Raghavan (The Master) Portrait"
                 fill
                 priority
-                className="object-cover contrast-115 hover:scale-105 transition duration-700"
+                className="object-cover contrast-110 hover:scale-105 transition duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent" />
               

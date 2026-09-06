@@ -29,7 +29,6 @@ export const Navbar: React.FC = () => {
     { name: 'THE STUDENTS', href: '/students' },
     { name: 'LEGACY', href: '/story#legacy' },
     { name: 'GALLERY', href: '/gallery' },
-    { name: 'SHOP', href: '/shop' },
     { name: 'CONTACT', href: '/contact' }
   ];
 
@@ -77,20 +76,6 @@ export const Navbar: React.FC = () => {
 
         {/* Action Controls */}
         <div className="flex items-center gap-4">
-          {/* Cart Icon */}
-          <button
-            onClick={openCart}
-            className="p-2 text-zinc-300 hover:text-white hover:bg-zinc-800/80 rounded-lg relative transition"
-            aria-label="Open Cart"
-          >
-            <ShoppingBag className="w-5 h-5" />
-            {totalItems > 0 && (
-              <span className="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
-                {totalItems}
-              </span>
-            )}
-          </button>
-
           {/* Primary CTA */}
           <Link
             href="/contact"
