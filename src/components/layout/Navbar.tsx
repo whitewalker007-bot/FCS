@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ShoppingBag, Menu, X, Flame } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
@@ -39,8 +40,14 @@ export const Navbar: React.FC = () => {
         
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 bg-red-600/15 border border-red-600/40 rounded flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition duration-300">
-            <Flame className="w-5 h-5 text-red-500 group-hover:text-white transition" />
+          <div className="relative w-11 h-11 rounded-full overflow-hidden border border-zinc-700 group-hover:border-red-600 transition shadow-md shrink-0">
+            <Image
+              src="/images/fcs-logo.png"
+              alt="FCS Pooladikunnu Logo"
+              width={44}
+              height={44}
+              className="object-cover group-hover:scale-105 transition"
+            />
           </div>
           <div>
             <span className="block font-extrabold text-base md:text-lg tracking-widest text-zinc-100 uppercase font-mono">

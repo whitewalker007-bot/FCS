@@ -6,6 +6,7 @@ import { Footer } from '@/components/layout/Footer';
 import { CartProvider } from '@/context/CartContext';
 import { CartDrawer } from '@/components/shop/CartDrawer';
 import { JsonLd } from '@/components/seo/JsonLd';
+import { Preloader } from '@/components/ui/Preloader';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -60,6 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable} ${cinzel.variable}`}>
       <body className="bg-zinc-950 text-zinc-100 antialiased selection:bg-red-600 selection:text-white">
+        <Preloader />
         <JsonLd />
         <CartProvider>
           <div className="flex flex-col min-h-screen">

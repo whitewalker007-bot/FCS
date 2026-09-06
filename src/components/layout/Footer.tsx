@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Flame, MapPin, Phone, Mail, Award, Heart } from 'lucide-react';
 
 export const Footer: React.FC = () => {
@@ -37,8 +38,14 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-red-600/20 border border-red-600/40 rounded flex items-center justify-center">
-                <Flame className="w-4 h-4 text-red-500" />
+              <div className="relative w-10 h-10 rounded-full overflow-hidden border border-zinc-700 shrink-0">
+                <Image
+                  src="/images/fcs-logo.png"
+                  alt="FCS Pooladikunnu Logo"
+                  width={40}
+                  height={40}
+                  className="object-cover"
+                />
               </div>
               <span className="font-extrabold text-lg text-white font-mono tracking-wider">
                 PUTHALATH RAGHAVAN
