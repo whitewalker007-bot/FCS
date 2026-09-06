@@ -28,7 +28,7 @@ export const StoryPreview: React.FC = () => {
                 alt="Puthalath Raghavan (Raghavan Master) Pooladikunnu"
                 fill
                 priority
-                className="object-cover contrast-110 hover:scale-105 transition duration-700"
+                className="object-cover grayscale contrast-125 hover:scale-105 transition duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent" />
               
