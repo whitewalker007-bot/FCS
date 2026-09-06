@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Legal & Credits */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
-          <p>© {new Date().getFullYear()} Puthalath Raghavan Legacy Archive. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} adarsh.thiruvooth. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span>Friends Cultural Society (FCS Pooladikunnu)</span>
             <span className="text-zinc-700 font-mono">•</span>
