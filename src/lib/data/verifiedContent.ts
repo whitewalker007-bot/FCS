@@ -190,8 +190,7 @@ export const TRAINING_PROGRAMS: ProgramItem[] = [
     description: 'Learn orthodox stance, jab-cross technique, guard defense, and rhythm footwork honed in Raghavan Master’s traditional regimen.',
     level: 'Beginner',
     duration: '12 Weeks',
-    features: ['Mirror Footwork Drills', 'Heavy Bag Foundations', 'Basic Guard & Slip', 'Stamina & Core Circuit'],
-    price: 1499
+    features: ['Mirror Footwork Drills', 'Heavy Bag Foundations', 'Basic Guard & Slip', 'Stamina & Core Circuit']
   },
   {
     id: 'competitive-boxing',
@@ -201,8 +200,7 @@ export const TRAINING_PROGRAMS: ProgramItem[] = [
     description: 'Rigorous bout preparation, distance management, body shots, counter-punching tactics, and corner conditioning.',
     level: 'Intermediate / Advanced',
     duration: '24 Weeks',
-    features: ['Technical Sparring', 'Mitt Work Routines', 'Fight Strategy & Range', 'Weight Management'],
-    price: 2999
+    features: ['Technical Sparring', 'Mitt Work Routines', 'Fight Strategy & Range', 'Weight Management']
   },
   {
     id: 'yoga-mind-control',
@@ -212,8 +210,7 @@ export const TRAINING_PROGRAMS: ProgramItem[] = [
     description: 'Classical Hatha yoga poses combined with deep breathwork to expand lung capacity, calm pre-fight anxiety, and speed muscle repair.',
     level: 'All Levels',
     duration: 'Ongoing / Monthly',
-    features: ['Pranayama Breathwork', 'Core & Hip Opening Asanas', 'Post-Training Muscle Relief', 'Mental Focus Meditation'],
-    price: 1199
+    features: ['Pranayama Breathwork', 'Core & Hip Opening Asanas', 'Post-Training Muscle Relief', 'Mental Focus Meditation']
   },
   {
     id: 'boxing-yoga-complete',
@@ -223,8 +220,7 @@ export const TRAINING_PROGRAMS: ProgramItem[] = [
     description: 'The signature training philosophy of Raghavan Master: 60 minutes of high-intensity boxing combined with 30 minutes of deep yoga recovery.',
     level: 'All Levels',
     duration: '16 Weeks',
-    features: ['Full Body Combat Workout', 'Mindful Breathing', 'Joint Longevity & Mobility', 'Personal Progress Assessment'],
-    price: 3499
+    features: ['Full Body Combat Workout', 'Mindful Breathing', 'Joint Longevity & Mobility', 'Personal Progress Assessment']
   },
   {
     id: 'women-boxing-academy',
@@ -234,8 +230,7 @@ export const TRAINING_PROGRAMS: ProgramItem[] = [
     description: 'Honoring Raghavan Master’s pioneering work training female athletes. Focused on functional power, footwork, speed, and real-world confidence.',
     level: 'All Levels',
     duration: '12 Weeks',
-    features: ['Core Striking Mechanics', 'Reaction Drills', 'Self-Defense Applications', 'Empowerment Community'],
-    price: 1499
+    features: ['Core Striking Mechanics', 'Reaction Drills', 'Self-Defense Applications', 'Empowerment Community']
   },
   {
     id: 'youth-boxing-fcs',
@@ -245,8 +240,7 @@ export const TRAINING_PROGRAMS: ProgramItem[] = [
     description: 'Instilling discipline, respect, agility, and sportsmanship in young athletes under the principles of Friends Cultural Society.',
     level: 'Youth (Ages 10-18)',
     duration: 'Monthly Program',
-    features: ['Agility Ladders & Skipping', 'Non-Contact Drills', 'Sports Ethics & Discipline', 'Subsidized/Free Options'],
-    price: 799
+    features: ['Agility Ladders & Skipping', 'Non-Contact Drills', 'Sports Ethics & Discipline', 'Subsidized/Free Options']
   }
 ];
 

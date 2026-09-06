@@ -88,14 +88,14 @@ export default async function BoxingPage() {
 
               <div className="pt-6 border-t border-zinc-800 flex items-center justify-between font-mono">
                 <div>
-                  <span className="text-xs text-zinc-500 block">PROGRAM FEE</span>
-                  <span className="text-2xl font-bold text-white">₹{program.price}</span>
+                  <span className="text-xs text-red-500 font-bold block uppercase">ATHLETE COACHING</span>
+                  <span className="text-sm font-bold text-zinc-300">Free / Community Based</span>
                 </div>
                 <Link
                   href="/contact"
                   className="bg-red-600 hover:bg-red-700 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded transition"
                 >
-                  ENROLL NOW
+                  JOIN PROGRAM
                 </Link>
               </div>
             </div>

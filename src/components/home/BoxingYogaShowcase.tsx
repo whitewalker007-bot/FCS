@@ -89,7 +89,7 @@ export const BoxingYogaShowcase: React.FC = () => {
                 <h3 className="text-xl font-bold font-mono text-white">{program.title}</h3>
                 <p className="text-xs text-zinc-400 font-sans line-clamp-3">{program.description}</p>
                 <div className="flex justify-between items-center pt-4 border-t border-zinc-800 font-mono">
-                  <span className="text-lg font-bold text-white">₹{program.price}</span>
+                  <span className="text-xs text-red-500 font-bold uppercase">FREE / ATHLETE SUPPORT</span>
                   <Link
                     href={`/boxing#${program.id}`}
                     className="text-xs bg-red-600 hover:bg-red-700 text-white font-bold px-3 py-1.5 rounded transition"
@@ -115,7 +115,7 @@ export const BoxingYogaShowcase: React.FC = () => {
                 <h3 className="text-xl font-bold font-mono text-white">{program.title}</h3>
                 <p className="text-xs text-zinc-400 font-sans line-clamp-3">{program.description}</p>
                 <div className="flex justify-between items-center pt-4 border-t border-zinc-800 font-mono">
-                  <span className="text-lg font-bold text-white">₹{program.price}</span>
+                  <span className="text-xs text-emerald-400 font-bold uppercase">COMMUNITY PROGRAM</span>
                   <Link
                     href={`/yoga#${program.id}`}
                     className="text-xs bg-emerald-700 hover:bg-emerald-600 text-white font-bold px-3 py-1.5 rounded transition"

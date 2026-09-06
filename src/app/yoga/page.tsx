@@ -83,8 +83,8 @@ export default async function YogaPage() {
 
               <div className="pt-6 border-t border-zinc-800 flex items-center justify-between font-mono">
                 <div>
-                  <span className="text-xs text-zinc-500 block">PROGRAM FEE</span>
-                  <span className="text-2xl font-bold text-white">₹{program.price}</span>
+                  <span className="text-xs text-emerald-400 font-bold block uppercase">MIND-BODY COACHING</span>
+                  <span className="text-sm font-bold text-zinc-300">Free / Open Access</span>
                 </div>
                 <Link
                   href="/contact"
