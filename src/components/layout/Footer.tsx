@@ -73,7 +73,6 @@ export const Footer: React.FC = () => {
               <li><Link href="/yoga" className="hover:text-red-500 transition">Yoga & Recovery</Link></li>
               <li><Link href="/boxing#women" className="hover:text-red-500 transition">Women in Boxing Pioneer</Link></li>
               <li><Link href="/story#sculptor" className="hover:text-red-500 transition">Boxing Sculptures & Art</Link></li>
-              <li><Link href="/gallery" className="hover:text-red-500 transition">Historical Photo Archive</Link></li>
             </ul>
           </div>
 
